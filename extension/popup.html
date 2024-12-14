@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing Detector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    #result {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Phishing Detector</h1>
+  
+  <!-- URL input and Check button -->
+  <h3>URL Detection</h3>
+  <input type="text" id="url" placeholder="Enter URL" />
+  <button id="check-url">Check URL</button>
+  <div id="url-result"></div>
+  
+  <!-- Text input (email body) and Check button -->
+  <h3>Email Body Detection</h3>
+  <textarea id="emailBody" placeholder="Enter email body" rows="10" cols="30"></textarea>
+  <button id="check-text">Check Text</button>
+  <div id="text-result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

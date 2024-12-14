@@ -50,3 +50,65 @@ venv.bak/
 *.pid
 *.seed
 *.pid.lock
+
+# macOS
+*.DS_Store
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python virtual environments
+.venv/
+.venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Test results
+*.pytest_cache/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MySQL
+*.sql
+
+# SQLite
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+myenv/
